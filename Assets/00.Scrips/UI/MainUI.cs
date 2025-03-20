@@ -33,12 +33,7 @@ public class MainUI : MonoBehaviour
         expTxt.text = $"{player.curExp} / {player.maxExp}";
         expBar.fillAmount = ((float)player.curExp / player.maxExp);
         descripTxt.text = player.decrip;
-
-        goldTxt.text = player.gold.ToString();
-
-        Debug.Log(player.curExp);
-        Debug.Log(player.maxExp);
-        Debug.Log(expBar.fillAmount);
+        goldTxt.text = UtiltiyClass.UpdateGold(player.gold);
     }
 
 

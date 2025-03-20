@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MenuUI : MonoBehaviour
+public class MenuSelectUI : MonoBehaviour
 {
     public Button statusBtn;
     public Button Inventory;
@@ -15,13 +15,11 @@ public class MenuUI : MonoBehaviour
         statusBtn.onClick.AddListener(ClickStatusButton);
         Inventory.onClick.AddListener(ClickInvenButton);
     }
-    // Start is called before the first frame update
     void Start()
     {
         uiManager = GetComponentInParent<UIManager>();
     }
 
-    // Update is called once per frame
     void ClickStatusButton()
     {
         gameObject.SetActive(false);

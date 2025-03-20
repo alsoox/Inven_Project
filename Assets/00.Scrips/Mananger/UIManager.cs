@@ -3,18 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum UIType
-{
-    SceneUI,
-    PopupUI
-}
-
 public class UIManager : MonoBehaviour
 {
     public Button backBtn;
 
     
-    public MenuUI menuUI;
+    public MenuSelectUI menuUI;
     public UIStatus statusUI;
     public UIInventory invenUI;
 
