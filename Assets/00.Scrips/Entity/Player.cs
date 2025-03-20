@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player
 {
     public int powerValue { get; private set; }
-    public int deffenseValue { get; private set; }
+    public int armorValue { get; private set; }
     public int maxHealth { get; private set; }
     public int level { get; private set; }
     public int maxExp { get; private set; }
@@ -22,7 +22,7 @@ public class Player
 
     {
         this.powerValue = powerValue;
-        this.deffenseValue = deffenseValue;
+        this.armorValue = deffenseValue;
         this.maxHealth = maxHealth;
         this.level = level;
         this.curExp = exp;

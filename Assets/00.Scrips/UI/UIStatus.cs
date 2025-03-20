@@ -21,7 +21,7 @@ public class UIStatus : UIBasePopup
     private void SetStatusUI()
     {
         attackTxt.text = player.powerValue.ToString();
-        deffenseTxt.text = player.deffenseValue.ToString();
+        deffenseTxt.text = player.armorValue.ToString();
         healthTxt.text = player.maxHealth.ToString();
         criticalTxt.text = player.critical.ToString();
     }
