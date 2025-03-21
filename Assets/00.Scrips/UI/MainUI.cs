@@ -20,7 +20,7 @@ public class MainUI : MonoBehaviour
     Player player;
 
     private void Start()
-    {
+    {     
         player = GameManager.Instance.Player;
         SetPlayerInfo();
     }

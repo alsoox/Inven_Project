@@ -31,7 +31,24 @@ public class Player
         this.userName = userName;
         this.decrip = decrip;
         this.gold = gold;
-
         maxExp = 10;
+    }
+
+    public void ChangePower(int value)
+    {
+        powerValue += value;
+    }
+
+    public void ChangeArmor(int value)
+    {
+        armorValue += value;
+    }
+    public void ChangeHealth(int value)
+    {
+        maxHealth += value;
+    }
+    public void ChangeCritical(int value)
+    {
+        critical += value;
     }
 }

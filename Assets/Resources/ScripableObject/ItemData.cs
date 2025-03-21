@@ -13,8 +13,9 @@ public enum ValueType
 public class ItemData : ScriptableObject
 {
     [Header("Info")]
+    public int id;
     public Sprite icon;
     public ValueType valuetype;
     public int value;
-    public bool isEquip;
+    public bool isEquip = false;
 }

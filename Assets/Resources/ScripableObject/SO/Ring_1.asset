@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eac3365516cb01647a8e55500152af08, type: 3}
-  m_Name: Sword_1
+  m_Name: Ring_1
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 789e518168d493d4396ec984b1b5bcb3, type: 3}
-  valuetype: 0
+  id: 6
+  icon: {fileID: 21300000, guid: e76b30749d6bac4489c3ccf1ccb2c8fc, type: 3}
+  valuetype: 3
   value: 10
-  isEquip: 1
+  isEquip: 0

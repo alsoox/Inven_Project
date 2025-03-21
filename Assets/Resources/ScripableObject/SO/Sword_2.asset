@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac3365516cb01647a8e55500152af08, type: 3}
   m_Name: Sword_2
   m_EditorClassIdentifier: 
+  id: 1
   icon: {fileID: 21300000, guid: eab93444844589c40a72574411dd0120, type: 3}
   valuetype: 0
   value: 20
-  isEquip: 1
+  isEquip: 0

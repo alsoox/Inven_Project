@@ -15,6 +15,7 @@ public class UIStatus : UIBasePopup
     private void Start()
     {
         player = GameManager.Instance.Player;
+        GameManager.Instance.UIManager.invenUI.equip += SetStatusUI;
         SetStatusUI();
     }
 
