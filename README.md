@@ -36,8 +36,10 @@
   - 별도 인벤토리 클래스 관리 : 보유 아이템 정보 Dictionary(아이템, 수량) 으로 관리
   - 인벤토리 UI : 게임매니저에서 관리하고 있는 인벤토리에 접근 후 슬롯 설정
   - 착용 / 해제 / 버리기 : 플레이어 상태 및 인벤토리 값 변경
+  - 착용 아이템 체크표시  
     
-![image](https://github.com/user-attachments/assets/89663c17-e3c1-4b64-b63f-25d443bb9632)
+![image](https://github.com/user-attachments/assets/85878422-bdb6-4ef6-9771-1aefad7de38d)
+
 
 ## ScriptableObject
 아이템에 따른 정보값 ScriptableObject 로 관리  
