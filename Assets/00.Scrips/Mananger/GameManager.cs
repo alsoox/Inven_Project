@@ -54,7 +54,6 @@ public class GameManager : MonoBehaviour
     {
         List<ItemData> allItems = new List<ItemData>(Resources.LoadAll<ItemData>("ScripableObject/SO"));
 
-        Debug.Log(allItems.Count);
         for (int i = 0; i < allItems.Count; i++)
         {
             inven.GetItem(allItems[i]);
